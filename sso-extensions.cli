@@ -1,0 +1,9 @@
+batch
+
+
+
+    /subsystem=datasources/data-source=sso_postgresqlObjectStorePool/connection-properties=sslmode:add(value=verify-ca)
+
+
+run-batch
+
